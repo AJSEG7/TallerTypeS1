@@ -17,3 +17,4 @@ function renderSeriesInTable(series: Serie[]): void {
                                <td>${s.seasons}</td>`;
         seriesTbody.appendChild(trElement);
   });
+}
